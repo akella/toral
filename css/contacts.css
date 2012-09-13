@@ -1,3 +1,57 @@
 /* .contacts
 ----------------------------------------------- */
-.contacts{}
+.contacts{
+	padding:30px 0 0 45px;
+	}
+	.contacts__title{
+		width:112px;
+		margin:0 auto 4px;
+		font-size:12px;
+		color:#cb2027;
+		text-transform:uppercase;
+		text-align:center;
+		position:relative;
+		font-weight:normal;
+		left:-22px;
+		}
+		.contacts__title:after, .contacts__title:before{
+			content:"";
+			border-top:1px solid #666;
+			height:0;
+			width:301px;
+			top:8px;
+			position:absolute;
+			left:112px;
+			}
+		.contacts__title:before{left:-301px;}
+	.contacts__list{
+		padding:4px 0 0;
+		line-height:18px;
+		overflow:hidden;
+		}
+		.contacts__list dt{
+			float:left;
+			font-size:12px;
+			width:240px;
+			margin-bottom:14px;
+			}
+		.contacts__list dd{
+			color:#cb2027;
+			font-size:14px;
+			margin-bottom:14px;
+			}
+		.contacts__address{
+			font-size:14px;
+			color:#cb2027;
+			margin:0 0 13px;
+			line-height:1.2;
+			}
+		.contacts__map{
+			margin:0 0 17px;
+			}
+			.contacts__map img{vertical-align:top;}
+		.contacts__details{
+			font-size:12px;
+			line-height:1.2;
+			margin-top:9px;
+		}

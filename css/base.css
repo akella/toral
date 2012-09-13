@@ -25,6 +25,25 @@ a{color:#40acde}
 	width:960px;
 	margin:0 auto;
 	}
+.btn{
+	display:inline-block;
+	line-height:28px;
+	height:30px;
+	background: rgb(248,247,247);
+	background: -moz-linear-gradient(top,  rgba(248,247,247,1) 0%, rgba(241,240,240,1) 45%, rgba(218,217,216,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,247,247,1)), color-stop(45%,rgba(241,240,240,1)), color-stop(100%,rgba(218,217,216,1)));
+	background: -webkit-linear-gradient(top,  rgba(248,247,247,1) 0%,rgba(241,240,240,1) 45%,rgba(218,217,216,1) 100%);
+	background: -o-linear-gradient(top,  rgba(248,247,247,1) 0%,rgba(241,240,240,1) 45%,rgba(218,217,216,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(248,247,247,1) 0%,rgba(241,240,240,1) 45%,rgba(218,217,216,1) 100%);
+	background: linear-gradient(to bottom,  rgba(248,247,247,1) 0%,rgba(241,240,240,1) 45%,rgba(218,217,216,1) 100%);
+	border-radius:7px;
+	border:1px solid #c3c2c0;
+	color:#666;
+	text-decoration:none;
+	font-size:12px;
+	padding:0 11px;
+	box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.15)
+	}
 /* #cb2027 - красный
 /* .header
 ----------------------------------------------- */
@@ -202,6 +221,7 @@ a{color:#40acde}
 		text-transform:uppercase;
 		font-family:Arial, Helvetica, sans-serif;
 		font-weight:normal;
+		margin-left:50px;
 		}
 
 /* .last-news
@@ -236,6 +256,28 @@ a{color:#40acde}
 			}
 		.last-news__item a:hover{text-decoration:underline;}
 
+/* .popular
+----------------------------------------------- */
+.popular{
+	background:url(../img/bg-aside.png) no-repeat 100% 58px;
+	margin:0 -14px 20px 0;
+	padding:20px 14px 0 0;
+	}
+	.popular h2{
+		font-size:14px;
+		color:#cb2027;
+		margin:0 0 13px 55px;
+		}
+	.popular__info{padding-left:26px;}
+	.popular__info dl{
+		margin:-4px 0 8px;
+		line-height:20px;
+		}
+		.popular__info dt{
+			color:#cb2027;
+			float:left;
+			}
+		.popular__info .btn{margin-left:4px;}
 
 /* .brands
 ----------------------------------------------- */
