@@ -1,0 +1,96 @@
+/* .bottle
+----------------------------------------------- */
+.bottle{
+	display:inline-block;
+	margin:-7px 0 20px -5px;
+	}
+	.bottle__item{
+		float:left;
+		margin: 0 23px 0 0;
+		}
+		.bottle__img{
+			background:url(../img/white-flag.png);
+			width:192px;
+			padding-left:26px;
+			height:344px;
+			text-align:center;
+			line-height:330px;
+			margin-bottom:12px;
+			position:relative;
+			}
+			.bottle__img a{
+				display:block;
+				height:330px;
+				}
+				.bottle__img img{
+					vertical-align:middle;
+					}
+			.bottle__new{
+				position:absolute;
+				width:69px;
+				height:68px;
+				background:url(../img/mark-new.png);
+				top:0;
+				left:27px;
+				display:block;
+				overflow:hidden;
+				text-indent:-9999px;
+				}
+		.bottle__inf{
+			text-align:center;
+			padding-left:37px;
+			width:170px;
+			}
+			.bottle__name{
+				color:#cb2027;
+				font-weight:bold;
+				font-size:13px;
+				display:block;
+				line-height:1.2;
+				margin-bottom:10px;
+				}
+				.bottle__name a{
+					text-decoration:none;
+					color:#cb2027;
+					}
+					.bottle__name a:hover{text-decoration:underline;}
+			.bottle__producer{
+				font-size:11px;
+				color:#808080;
+				display:block;
+				line-height:1;
+				margin-bottom:5px;
+				}
+			.bottle__sep{
+				width:104px;
+				height:1px;
+				background:#808080;
+				display:block;
+				margin:0 auto 1px;
+				}
+			.bottle__area{
+				font-size:11px;
+				color:#808080;
+				display:block;
+				line-height:1;
+				margin-bottom:4px;
+				min-height:22px;
+				}
+			.bottle__price{
+				color:#cb2027;
+				font-size:16px;
+				font-style:normal;
+				}
+
+/* .about-company
+----------------------------------------------- */
+.about-company{
+	float:left;
+	font-family: "Myriad Pro", Tahoma, Arial, sans-serif;
+	font-size:12px;
+	line-height: 1.25;
+	width:330px;
+	padding: 0 0 0 30px;
+	}
+	.about-company p{margin-bottom: 14px;}
+
