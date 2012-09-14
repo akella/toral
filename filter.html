@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="utf-8">
+	<title>TorAl</title>
+	<link rel="stylesheet" media="screen" href="css/master.css" >
+	<script src="js/jquery-1.8.0.min.js"></script>
+	<script src="js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script src="js/common.js"></script>
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="css/lt9.css" >
+		<script src="js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="wrapper">
+
+
+	<!-- BEGIN .header -->
+	<header class="header">
+		<strong class="header__logo"> <a href="#">TroAl group</a> </strong>
+		<em class="header__slogan">НАША ОБЯЗАННОСТЬ — ЭТО ОБЕСПЕЧИТЬ АССОРТИМЕНТОМ</em>
+		<span class="header__phone">+7 (812)<span>320-94-44</span></span>
+		<nav  class="top-nav">
+			<ul>
+				<li><a href="#" class="top-nav__news" >Новости</a></li>
+				<li><a href="#" class="top-nav__about">О компании</a></li>
+				<li><a href="#" class="top-nav__contacts">Контакты</a></li>
+				<li><a href="#" class="top-nav__account">Личный кабинет</a></li>
+			</ul>
+		</nav>
+		<div class="header__bottom">
+			<div class="header__favorite"><a href="#">Избранное</a>(<span>ничего нет</span>)</div>
+			<div class="header__favorite"><a href="#">Ваша корзина</a>(<span>2 шт.</span>)</div>
+			
+		</div>
+	</header>
+	<!-- END /header -->
+
+
+	<!-- BEGIN .nav -->
+	<nav class="nav">
+		<ul>
+			<li class="active"><a href="#">Крепкие напитки</a></li>
+			<li><a href="#">Вино</a></li>
+			<li><a href="#">Собственные ТМ</a></li>
+			<li><a href="#">Новинки</a></li>
+		</ul>
+	</nav>
+	<!-- END .nav -->
+
+	<!-- BEGIN .main -->
+	<div class="main">
+
+		<h1 class="main-title">Фильтр по продукции</h1>	
+
+		<!-- BEGIN .l -->
+		<div class="l">
+
+			<!-- BEGIN .l-col5-4 -->
+			<div class="l-col5-4">
+
+				<!-- BEGIN .filter -->
+				<div class="filter">
+					<form action="#">
+						<div class="filter__holder">
+							<div class="filter__block">
+								<div class="filter__col">
+									<h3>Тип вина</h3>
+									<div class="row"><input type="checkbox" id="id-001"><label for="id-001">Игристое</label></div>
+									<div class="row"><input type="checkbox" id="id-002"><label for="id-002">Крепленое</label></div>
+									<div class="row"><input type="checkbox" id="id-003"><label for="id-003">Специальное</label></div>
+									<div class="row"><input type="checkbox" id="id-004"><label for="id-004">Тихое</label></div>
+									<div class="row"><input type="checkbox" id="id-005"><label for="id-005">Шипучее</label></div>
+								</div>
+								<div class="filter__col">
+									<h3>Содержание сахара</h3>
+									<div class="row"><input type="checkbox" id="id-006"><label for="id-006">Полусладкое</label></div>
+									<div class="row"><input type="checkbox" id="id-007"><label for="id-007">Полусухое</label></div>
+									<div class="row"><input type="checkbox" id="id-008"><label for="id-008">Сладкое</label></div>
+									<div class="row"><input type="checkbox" id="id-009"><label for="id-009">Сухое</label></div>
+								</div>
+								<div class="filter__col">
+									<h3>Цвет вина</h3>
+									<div class="row"><input type="radio" id="id-010" name="wine-color"><label for="id-010">Красное</label></div>
+									<div class="row"><input type="radio" id="id-011" name="wine-color"><label for="id-011">Розовое</label></div>
+									<div class="row"><input type="radio" id="id-012" name="wine-color"><label for="id-012">Белое</label></div>
+								</div>
+								<div class="scale-holder">
+									<div class="scale-legend">
+										<span class="scale-legend__t">></span>
+										<span class="scale-legend__m">2000 р.</span>
+										<span class="scale-legend__b">0</span>
+									</div>
+									<div class="scale"><div id="slider-range"></div></div>
+									<div class="scale-diapason">
+										<h3>Ценовой диапазон</h3>
+										<div class="row scale-diapason__to"><label for="">ДО:</label><input type="text" id="scale-diapason__to" /></div>
+										<div class="row scale-diapason__from"><label for="">ОТ:</label><input type="text" id="scale-diapason__from" /></div>
+									</div>
+								</div>
+							</div>
+							<div class="filter__block">
+								<div class="filter__col2">
+									<h3>Страны<span class="filter__sep"></span><a href="#">все</a></h3>
+									<div class="filter__col">
+										<div class="row"><input type="checkbox" id="id-013"><label for="id-013">Австралия</label></div>
+										<div class="row"><input type="checkbox" id="id-014"><label for="id-014">Аргентина</label></div>
+										<div class="row"><input type="checkbox" id="id-015"><label for="id-015">Германия</label></div>
+										<div class="row"><input type="checkbox" id="id-016"><label for="id-016">Италия</label></div>
+										<div class="row"><input type="checkbox" id="id-017"><label for="id-017">Португалия</label></div>
+									</div>
+									<div class="filter__col">
+										<div class="row"><input type="checkbox" id="id-018"><label for="id-018">Австрия</label></div>
+										<div class="row"><input type="checkbox" id="id-019"><label for="id-019">Венгрия</label></div>
+										<div class="row"><input type="checkbox" id="id-020"><label for="id-020">Испания</label></div>
+										<div class="row"><input type="checkbox" id="id-021"><label for="id-021">Новая Зеландия</label></div>
+										<div class="row"><input type="checkbox" id="id-022"><label for="id-022">Соединенные Штаты</label></div>
+									</div>
+								</div>
+								<div class="filter__col">
+									<h3>Регионы<span class="filter__sep"></span><a href="#">все</a></h3>
+									<div class="row"><input type="checkbox" id="id-023"><label for="id-023">Абруцццо</label></div>
+									<div class="row"><input type="checkbox" id="id-024"><label for="id-024">Аконкагуа</label></div>
+									<div class="row"><input type="checkbox" id="id-025"><label for="id-025">Андалусия</label></div>
+									<div class="row"><input type="checkbox" id="id-026"><label for="id-026">Апулия</label></div>
+									<div class="row"><input type="checkbox" id="id-027"><label for="id-027">Бордо</label></div>
+								</div>
+								<div class="filter__col">
+									<h3>Производители<span class="filter__sep"></span><a href="#">все</a></h3>
+									<div class="row"><input type="checkbox" id="id-028"><label for="id-028">Agricola Punica</label></div>
+									<div class="row"><input type="checkbox" id="id-029"><label for="id-029">Agricola San FeliceAldo</label></div>
+									<div class="row"><input type="checkbox" id="id-030"><label for="id-030">Rainoldi</label></div>
+									<div class="row"><input type="checkbox" id="id-031"><label for="id-031">Allegrini</label></div>
+									<div class="row"><input type="checkbox" id="id-032"><label for="id-032">Alvaro Palacios</label></div>
+								</div>
+							</div>
+							<div class="filter__name">
+								<label for="">Название</label>
+								<input type="text">
+							</div>
+						</div>
+						<a href="#" class="filter__reset">Страна: Австрия</a>
+						<a href="#" class="filter__reset">Регион: Вахау</a>
+						<a href="#" class="filter__resetall">Сбросить фильтр</a>
+					</form>
+				</div>
+				<!-- END .filter -->
+
+
+			<!-- BEGIN .tabs -->
+				<div class="tabs">
+					<ul class="tabs__nav">
+						<li><a href="#" class="tabs__link2"></a></li>
+						<li class="active"><a href="#" class="tabs__link1"></a></li>
+					</ul>
+
+					<!-- BEGIN .tabs__box -->
+					<div class="tabs__box">
+						<table class="t">
+							<tr>
+								<th>Производитель<a href="#" class="list-za"></a><a href="#" class="list-az"></a></th>
+								<th>Название<a href="#" class="list-za"></a><a href="#" class="list-az"></a></th>
+								<th>Тип напитка<a href="#" class="list-za"></a><a href="#" class="list-az"></a></th>
+								<th>Страна<a href="#" class="list-za"></a><a href="#" class="list-az"></a></th>
+								<th>Регион<a href="#" class="list-za"></a><a href="#" class="list-az"></a></th>
+								<th>Объём<a href="#" class="list-za"></a><a href="#" class="list-az"></a></th>
+								<th>Цена<a href="#" class="list-za active"></a><a href="#" class="list-az"></a></th>
+							</tr>
+							<tr>
+								<td class="t__col1"><a href="#">Thomas Hine</a></td>
+								<td class="t__col2">Hine Talent de Thomas Hine Grande Champagne</td>
+								<td>Коньяк</td>
+								<td>Франция</td>
+								<td>Бордо</td>
+								<td>0.7л</td>
+								<td class="ordered">
+									<div class="t__btn-holder">
+										990.–
+										<div class="t__btn-frame">
+											<a href="#" class="btn">В корзину</a>
+											<a href="#" class="btn">В избранное</a>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="t__col1"><a href="#">Thomas Hine</a></td>
+								<td class="t__col2">Hine Talent de Thomas Hine Grande Champagne</td>
+								<td>Коньяк</td>
+								<td>Франция</td>
+								<td>Бордо</td>
+								<td>0.7л</td>
+								<td class="ordered">
+									<div class="t__btn-holder">
+										990.–
+										<div class="t__btn-frame">
+											<a href="#" class="btn">В корзину</a>
+											<a href="#" class="btn">В избранное</a>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="t__col1"><a href="#">Thomas Hine</a></td>
+								<td class="t__col2">Hine Talent de Thomas Hine Grande Champagne</td>
+								<td>Коньяк</td>
+								<td>Франция</td>
+								<td>Бордо</td>
+								<td>0.7л</td>
+								<td class="ordered">
+									<div class="t__btn-holder">
+										990.–
+										<div class="t__btn-frame">
+											<a href="#" class="btn">В корзину</a>
+											<a href="#" class="btn">В избранное</a>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="t__col1"><a href="#">Thomas Hine</a></td>
+								<td class="t__col2">Hine Talent de Thomas Hine Grande Champagne</td>
+								<td>Коньяк</td>
+								<td>Франция</td>
+								<td>Бордо</td>
+								<td>0.7л</td>
+								<td class="ordered">
+									<div class="t__btn-holder">
+										990.–
+										<div class="t__btn-frame">
+											<a href="#" class="btn">В корзину</a>
+											<a href="#" class="btn">В избранное</a>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="t__col1"><a href="#">Thomas Hine</a></td>
+								<td class="t__col2">Hine Talent de Thomas Hine Grande Champagne</td>
+								<td>Коньяк</td>
+								<td>Франция</td>
+								<td>Бордо</td>
+								<td>0.7л</td>
+								<td class="ordered">
+									<div class="t__btn-holder">
+										990.–
+										<div class="t__btn-frame">
+											<a href="#" class="btn">В корзину</a>
+											<a href="#" class="btn">В избранное</a>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="t__col1"><a href="#">Thomas Hine</a></td>
+								<td class="t__col2">Hine Talent de Thomas Hine Grande Champagne</td>
+								<td>Коньяк</td>
+								<td>Франция</td>
+								<td>Бордо</td>
+								<td>0.7л</td>
+								<td class="ordered">
+									<div class="t__btn-holder">
+										990.–
+										<div class="t__btn-frame">
+											<a href="#" class="btn">В корзину</a>
+											<a href="#" class="btn">В избранное</a>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="t__col1"><a href="#">Thomas Hine</a></td>
+								<td class="t__col2">Hine Talent de Thomas Hine Grande Champagne</td>
+								<td>Коньяк</td>
+								<td>Франция</td>
+								<td>Бордо</td>
+								<td>0.7л</td>
+								<td class="ordered">
+									<div class="t__btn-holder">
+										990.–
+										<div class="t__btn-frame">
+											<a href="#" class="btn">В корзину</a>
+											<a href="#" class="btn">В избранное</a>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="t__col1"><a href="#">Thomas Hine</a></td>
+								<td class="t__col2">Hine Talent de Thomas Hine Grande Champagne</td>
+								<td>Коньяк</td>
+								<td>Франция</td>
+								<td>Бордо</td>
+								<td>0.7л</td>
+								<td class="ordered">
+									<div class="t__btn-holder">
+										990.–
+										<div class="t__btn-frame">
+											<a href="#" class="btn">В корзину</a>
+											<a href="#" class="btn">В избранное</a>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="t__col1"><a href="#">Thomas Hine</a></td>
+								<td class="t__col2">Hine Talent de Thomas Hine Grande Champagne</td>
+								<td>Коньяк</td>
+								<td>Франция</td>
+								<td>Бордо</td>
+								<td>0.7л</td>
+								<td class="ordered">
+									<div class="t__btn-holder">
+										990.–
+										<div class="t__btn-frame">
+											<a href="#" class="btn">В корзину</a>
+											<a href="#" class="btn">В избранное</a>
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="t__col1"><a href="#">Thomas Hine</a></td>
+								<td class="t__col2">Hine Talent de Thomas Hine Grande Champagne</td>
+								<td>Коньяк</td>
+								<td>Франция</td>
+								<td>Бордо</td>
+								<td>0.7л</td>
+								<td class="ordered">
+									<div class="t__btn-holder">
+										990.–
+										<div class="t__btn-frame">
+											<a href="#" class="btn">В корзину</a>
+											<a href="#" class="btn">В избранное</a>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<!-- END .tabs__box -->
+				</div>
+				<!-- END .tabs -->
+			</div>
+			<!-- END .l-col5-4 -->
+
+			<!-- BEGIN .l-col5-1 -->
+			<aside class="l-col5-1">
+
+				<!-- BEGIN .popular -->
+				<div class="popular">
+					<h2>Популярный товар:</h2>
+					<div class="bottle__img">
+						<a href="#"><img src="img/bottle-004.jpg" alt=""></a>
+					</div>
+					<div  class="popular__info">
+						<dl>
+							<dt>Страна:</dt>
+								<dd>Соединенные Штаты Америки</dd>
+							<dt>Регион:</dt>
+								<dd>Кентуки</dd>
+							<dt>Тип напитка:</dt>
+								<dd>Виски</dd>
+							<dt>Производитель:</dt>
+								<dd>Blanton`s Distilling Company</dd>
+							<dt>Объём:</dt>
+								<dd>0.7</dd>
+						</dl>
+						<a href="#" class="btn">В корзину</a>
+						<a href="#" class="btn">В избранное</a>
+					</div>
+				</div>
+				<!-- END .popular -->
+
+
+				<!-- BEGIN .last-news -->
+				<div class="last-news">
+					<h2>Последняя новость:</h2>
+					<div class="last-news__item">
+						<em class="last-news__date">11 августа 2012</em>
+						<p><a href="#">На XIV Дегустационном конкурсе Международной ярмарки "Продэкспо-2012" награждена компания ООО "Торал Групп".</a></p>
+					</div>
+					<div class="last-news__item">
+						<em class="last-news__date">21 марта 2012</em>
+						<p><a href="#">Ярмарки "Продэкспо-2012" награждена компания ООО "Торал Групп".</a></p>
+					</div>
+				</div>
+				<!-- END .last-news -->
+
+				<a href="#" class="load-catalog">Скачать каталог товаров <br>в формате PDF</a>
+
+			</aside>
+			<!-- END .l-col5-1 -->
+		</div>
+		<!-- END .l -->
+
+
+	</div>
+	<!-- END .main -->
+
+
+	<!-- END .footer -->
+	<footer class="footer">
+		<p class="footer__copy">© ООО«Торал Групп». Все права защищены. 1998 — 2012</p>
+		<div class="footer__dark">
+			<p class="fll">Телефон в Санкт-Петербурге: +7 (812) 320-94-44</p>
+			<p><strong>ООО «ТОРАЛ ГРУПП»</strong>, ул. Мельничная, д. 8</p>
+			<p>E-mail: <a href="mailto:info@toral.ru">info@toral.ru</a></p>
+		</div>
+		<div class="footer__gray">
+			<p>МИНЗДРАВ СОЦРАЗВИТИЯ ПРЕДУПРЕЖДАЕТ: ЧРЕЗМЕРНОЕ УПОТРЕБЛЕНИЕ АЛКОГОЛЯ ВРЕДИТ ВАШЕМУ ЗДОРОВЬЮ</p>
+		</div>
+		<p class="footer__inf">ВСЯ ПРЕДЛАГАЕМАЯ НА САЙТЕ ПРОДУКЦИЯ ПРЕДНАЗНАЧЕНА ДЛЯ ОЗНАКОМИТЕЛЬНЫХ ЦЕЛЕЙ. СДЕЛКА КУПЛИ-ПРОДАЖИ ВОЗМОЖНА ТОЛЬКО ДЛЯ ЮРИДИЧЕСКИХ ЛИЦ.</p>
+	</footer>
+	<!-- END .footer -->
+
+</div>
+</body>
+</html>

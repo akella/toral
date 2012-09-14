@@ -11,7 +11,7 @@ header, footer, hgroup, nav, aside{display:block;}
 a img,fieldset{border:none}
 a{text-decoration:underline;}
 a:hover{text-decoration:none;}
-a{color:#40acde}
+a{color:#cb2027;}
 .clr{
 	clear:both;
 	height:1px;
@@ -29,13 +29,13 @@ a{color:#40acde}
 	display:inline-block;
 	line-height:28px;
 	height:30px;
-	background: rgb(248,247,247);
-	background: -moz-linear-gradient(top,  rgba(248,247,247,1) 0%, rgba(241,240,240,1) 45%, rgba(218,217,216,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,247,247,1)), color-stop(45%,rgba(241,240,240,1)), color-stop(100%,rgba(218,217,216,1)));
-	background: -webkit-linear-gradient(top,  rgba(248,247,247,1) 0%,rgba(241,240,240,1) 45%,rgba(218,217,216,1) 100%);
-	background: -o-linear-gradient(top,  rgba(248,247,247,1) 0%,rgba(241,240,240,1) 45%,rgba(218,217,216,1) 100%);
-	background: -ms-linear-gradient(top,  rgba(248,247,247,1) 0%,rgba(241,240,240,1) 45%,rgba(218,217,216,1) 100%);
-	background: linear-gradient(to bottom,  rgba(248,247,247,1) 0%,rgba(241,240,240,1) 45%,rgba(218,217,216,1) 100%);
+	background: #f8f7f7;
+	background: -moz-linear-gradient(top,  #f8f7f7 0%, #f1f0f0 45%, #dad9d8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f7f7), color-stop(45%,#f1f0f0), color-stop(100%,#dad9d8));
+	background: -webkit-linear-gradient(top,  #f8f7f7 0%,#f1f0f0 45%,#dad9d8 100%);
+	background: -o-linear-gradient(top,  #f8f7f7 0%,#f1f0f0 45%,#dad9d8 100%);
+	background: -ms-linear-gradient(top,  #f8f7f7 0%,#f1f0f0 45%,#dad9d8 100%);
+	background: linear-gradient(to bottom,  #f8f7f7 0%,#f1f0f0 45%,#dad9d8 100%);
 	border-radius:7px;
 	border:1px solid #c3c2c0;
 	color:#666;
@@ -44,6 +44,15 @@ a{color:#40acde}
 	padding:0 11px;
 	box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.15)
 	}
+.btn:hover{
+	background: #dad9d8;
+	background: -moz-linear-gradient(top,  #dad9d8 0%, #f1f0f0 55%, #f8f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dad9d8), color-stop(55%,#f1f0f0), color-stop(100%,#f8f7f7));
+	background: -webkit-linear-gradient(top,  #dad9d8 0%,#f1f0f0 55%,#f8f7f7 100%);
+	background: -o-linear-gradient(top,  #dad9d8 0%,#f1f0f0 55%,#f8f7f7 100%);
+	background: -ms-linear-gradient(top,  #dad9d8 0%,#f1f0f0 55%,#f8f7f7 100%);
+	background: linear-gradient(to bottom,  #dad9d8 0%,#f1f0f0 55%,#f8f7f7 100%);
+}
 /* #cb2027 - красный
 /* .header
 ----------------------------------------------- */
@@ -307,29 +316,31 @@ a{color:#40acde}
 		float:right;
 		position:relative;
 		border:1px solid #666;
-		border-radius:6px;
+		border-top:none;
+		padding-top:1px;
+		border-radius:0 0 6px 6px;
 		margin-right:25px;
 		width:701px;
+		margin-top:5px;
 		}
 		.brands__list h2{
 			color:#cb2027;
 			font-size:11px;
 			text-transform:uppercase;
 			position:absolute;
-			width:144px;
+			width:703px;
 			text-align:center;
-			background:#f1eee9;
-			top:-8px;
-			left:50%;
-			margin-left:-72px;
+			background:url(../img/bg-brands-h.png) no-repeat 0 8px;
+			top:-13px;
+			left:-1px;
 			}
 		.brands__list ul{
 			list-style:none;
 			}
 			.brands__list li{
 				float:left;
-				height: 80px;
-				line-height:80px;
+				height: 75px;
+				line-height:75px;
 				text-align:center;
 				width: 25%;
 				}
