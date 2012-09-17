@@ -65,7 +65,7 @@
 					<form action="#">
 						<div class="filter__holder">
 							<div class="filter__block">
-								<div class="filter__col">
+								<div class="filter__col filter__col1">
 									<h3>Тип вина</h3>
 									<div class="row"><input type="checkbox" id="id-001"><label for="id-001">Игристое</label></div>
 									<div class="row"><input type="checkbox" id="id-002"><label for="id-002">Крепленое</label></div>
@@ -73,7 +73,7 @@
 									<div class="row"><input type="checkbox" id="id-004"><label for="id-004">Тихое</label></div>
 									<div class="row"><input type="checkbox" id="id-005"><label for="id-005">Шипучее</label></div>
 								</div>
-								<div class="filter__col">
+								<div class="filter__col filter__col2">
 									<h3>Содержание сахара</h3>
 									<div class="row"><input type="checkbox" id="id-006"><label for="id-006">Полусладкое</label></div>
 									<div class="row"><input type="checkbox" id="id-007"><label for="id-007">Полусухое</label></div>
@@ -101,16 +101,16 @@
 								</div>
 							</div>
 							<div class="filter__block">
-								<div class="filter__col2">
+								<div class="filter__col-twain">
 									<h3>Страны<span class="filter__sep"></span><a href="#">все</a></h3>
-									<div class="filter__col">
+									<div class="filter__col filter__col1">
 										<div class="row"><input type="checkbox" id="id-013"><label for="id-013">Австралия</label></div>
 										<div class="row"><input type="checkbox" id="id-014"><label for="id-014">Аргентина</label></div>
 										<div class="row"><input type="checkbox" id="id-015"><label for="id-015">Германия</label></div>
 										<div class="row"><input type="checkbox" id="id-016"><label for="id-016">Италия</label></div>
 										<div class="row"><input type="checkbox" id="id-017"><label for="id-017">Португалия</label></div>
 									</div>
-									<div class="filter__col">
+									<div class="filter__col filter__col2">
 										<div class="row"><input type="checkbox" id="id-018"><label for="id-018">Австрия</label></div>
 										<div class="row"><input type="checkbox" id="id-019"><label for="id-019">Венгрия</label></div>
 										<div class="row"><input type="checkbox" id="id-020"><label for="id-020">Испания</label></div>
@@ -118,7 +118,7 @@
 										<div class="row"><input type="checkbox" id="id-022"><label for="id-022">Соединенные Штаты</label></div>
 									</div>
 								</div>
-								<div class="filter__col">
+								<div class="filter__col filter__col3">
 									<h3>Регионы<span class="filter__sep"></span><a href="#">все</a></h3>
 									<div class="row"><input type="checkbox" id="id-023"><label for="id-023">Абруцццо</label></div>
 									<div class="row"><input type="checkbox" id="id-024"><label for="id-024">Аконкагуа</label></div>
@@ -151,8 +151,8 @@
 			<!-- BEGIN .tabs -->
 				<div class="tabs">
 					<ul class="tabs__nav">
-						<li><a href="#" class="tabs__link2"></a></li>
 						<li class="active"><a href="#" class="tabs__link1"></a></li>
+						<li><a href="#" class="tabs__link2"></a></li>
 					</ul>
 
 					<!-- BEGIN .tabs__box -->
@@ -340,6 +340,94 @@
 						</table>
 					</div>
 					<!-- END .tabs__box -->
+
+
+					<!-- BEGIN .tabs__box -->
+					<div class="tabs__box"  style="display:none;">
+						<!-- BEGIN .tabs__product-list -->
+						<div class="tabs__product-list">
+
+							<!-- BEGIN .product -->
+							<div class="product">
+								<div class="product__img">
+									<img src="img/bottle-004.jpg" alt="">
+								</div>
+								<div class="product__inf" style="background-image:url(img/country-spain.png);">
+									<div class="product__instock"><span>В наличии на складе</span></div>
+									<h3><a href="#">Bourbon Blanton's Gold Edition</a></h3>
+									<dl>
+										<dt>Страна:</dt>
+											<dd>Соединенные Штаты Америки</dd>
+										<dt>Регион:</dt>
+											<dd>Кентуки</dd>
+										<dt>Тип напитка:</dt>
+											<dd>Виски</dd>
+										<dt>Производитель:</dt>
+											<dd>Blanton`s Distilling Company</dd>
+										<dt>Объём:</dt>
+											<dd>0.7</dd>
+									</dl>
+									<span class="product__price">Цена: <strong>2740.–</strong></span>
+									<div class="product__qt">
+										<span>Количество:</span>
+										<div class="qty">
+											<a href="#" class="qty__less">-1</a>
+											<input type="text" class="qty__input" value="1">
+											<a href="#" class="qty__more">+1</a>
+										</div>
+									</div>
+									<div class="product__btn">
+										<a href="#" class="btn">В корзину</a>
+										<a href="#" class="btn">В избранное</a>
+									</div>
+								</div>
+							</div>
+							<!-- END .product -->
+
+
+							<!-- BEGIN .product -->
+							<div class="product">
+								<div class="product__img">
+									<img src="img/bottle-002.jpg" alt="">
+								</div>
+								<div class="product__inf" style="background-image:url(img/country-france.png);">
+									<div class="product__instock"><span>В наличии на складе</span></div>
+									<h3><a href="#">Bourbon Blanton's Gold Edition</a></h3>
+									<dl>
+										<dt>Страна:</dt>
+											<dd>Соединенные Штаты Америки</dd>
+										<dt>Регион:</dt>
+											<dd>Кентуки</dd>
+										<dt>Тип напитка:</dt>
+											<dd>Виски</dd>
+										<dt>Производитель:</dt>
+											<dd>Blanton`s Distilling Company</dd>
+										<dt>Объём:</dt>
+											<dd>0.7</dd>
+									</dl>
+									<span class="product__price">Цена: <strong>2740.–</strong></span>
+									<div class="product__qt">
+										<span>Количество:</span>
+										<div class="qty">
+											<a href="#" class="qty__less">-1</a>
+											<input type="text" class="qty__input" value="1">
+											<a href="#" class="qty__more">+1</a>
+										</div>
+									</div>
+									<div class="product__btn">
+										<a href="#" class="btn">В корзину</a>
+										<a href="#" class="btn">В избранное</a>
+									</div>
+								</div>
+							</div>
+							<!-- END .product -->
+
+						</div>
+						<!-- END .tabs__product-list -->
+						
+					</div>
+					<!-- END .tabs__box -->
+
 				</div>
 				<!-- END .tabs -->
 			</div>

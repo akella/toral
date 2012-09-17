@@ -1,0 +1,228 @@
+/* .product
+----------------------------------------------- */
+.product{
+	display:inline-block;
+	padding: 15px 0 0;
+	width:100%;
+	}
+.product_detail{
+	padding-top:52px;
+	margin-bottom:-22px;
+	}
+	.product__img{
+		float:left;
+		background:url(../img/white-flag-2.png) no-repeat 100% 0;
+		width:192px;
+		padding-left:36px;
+		height:344px;
+		text-align:center;
+		line-height:330px;
+		margin-bottom:12px;
+		position:relative;
+		margin-right:22px;
+		}
+	.product_img-red-border{
+		background-image:url(../img/white-flag-3.png);
+		margin: -81px 24px 0 -12px;
+		}
+	.tabs__product-list .product__img{margin-left:-31px;}
+	.product__inf{
+		width:475px;
+		position:relative;
+		float:left;
+		padding-top:35px;
+		background-position:25px 100%;
+		background-repeat:no-repeat;
+		height:321px;
+		}
+	.product_detail .product__inf{background-position:25px 0;}
+		.product__instock{
+			position:absolute;
+			width:452px;
+			border-top:1px solid #666;
+			top:0;
+			right:-6px;
+			}
+			.product__instock span{
+				width:135px;
+				padding-left:24px;
+				height:39px;
+				line-height:39px;
+				text-align:center;
+				color:#fff;
+				font-family:"Myriad Pro", Tahoma, Arial, sans-serif;
+				font-size:13px;
+				float:right;
+				background:url(../img/flag.png);
+				}
+		.product__inf h3{
+			color:#cb2027;
+			font-size:22px;
+			font-weight:normal;
+			margin-bottom: 9px;
+			}
+			.product__inf h3 a{
+				color:#cb2027;
+				text-decoration:underline;
+				}
+			.product__inf h3 a:hover{text-decoration:none;}
+		.product__inf dl{
+			line-height:20px;
+			}
+			.product__inf dt{
+				color:#cb2027;
+				float:left;
+				}
+		.product__price{
+			font-size:12px;
+			margin:-15px 0 0 252px;
+			display:block;
+			}
+			.product__price strong{
+				font-size:26px;
+				color:#cb2027;
+				font-weight:normal;
+				}
+		.product__qt{
+			overflow:hidden;
+			margin: 24px 0 0 252px;
+			}
+			.product__qt span{
+				font-size:12px;
+				float:left;
+			}
+			.qty{
+				float:left;
+				margin-left:5px;
+				}
+				.qty a{
+					width:8px;
+					height:9px;
+					overflow:hidden;
+					float:left;
+					background:url(../img/arrow.png);
+					text-indent:-9999px;
+					margin-top: 5px;
+					}
+				.qty a:hover{opacity:0.5;}
+				.qty .qty__less{
+					background-position:100% -15px;
+					}
+				.qty .qty__more{
+					
+					background-position:0 -15px;
+					}
+				.qty__input{
+					float:left;
+					width:85px;
+					padding:2px 7px;
+					color:#666;
+					height:14px;
+					line-height:14px;
+					border:1px solid #acadb3;
+					background:#f2f2f2;
+					margin:0 3px;
+					}
+		.product__btn{
+			margin:41px 0 0 288px;
+			}
+			.product__btn .btn{margin-left:3px;}
+
+/* .product__interesting
+----------------------------------------------- */
+
+	.product__interesting{
+		font-size:12px;
+		color:#808080;
+		width:385px;
+		line-height: 1.23;
+		padding-left:25px;
+		margin-bottom:22px;
+		}
+		.product__interesting h4{
+			color:#cb2027;
+			font-weight:normal;
+			}
+		.product__interesting .font-gray{color:#666;}
+		.product__interesting p{margin-bottom:13px;}
+	.product__nav{
+		margin-left:77px;
+		padding:20px 0;
+		}
+		.product__nav a{
+			color:#666;
+			font-size:13px;
+			text-decoration:none;
+			background:url(../img/navi-arrow.png) no-repeat;
+			font-family:Arial, Helvetica, sans-serif;
+			}
+		.product__nav a:hover{opacity:0.7;}
+		.product__nav .product__nav-prev{
+			padding-left:17px;
+			margin-right:10px;
+			}
+		.product__nav .product__nav-next{
+			padding-right:17px;
+			background-position:100% 100%;
+			}
+.zoom{
+	position:relative;
+	display: block;
+	margin:0 auto;
+	}
+	.zoomPad{
+		cursor: crosshair;
+		z-index: 99;
+		position:relative;
+		margin:0 auto;
+		}
+		.zoomPup{
+			border: 2px solid #cb2027!important;
+			cursor: crosshair;
+			overflow: hidden;
+			position: absolute;
+			z-index: 101;
+		}
+		.zoomWindow{
+			background: none repeat scroll 0 0 #fff;
+			height: auto;
+			position: absolute;
+			z-index: 110;
+			left:340px!important;
+			top:400px!important;
+			}
+			.zoomWrapper{
+				border: 2px solid #cb2027;
+				position: relative;
+				z-index: 110;
+				}
+				.zoomWrapperTitle{display:none;}
+				.zoomWrapperImage{
+					display: block;
+					overflow: hidden;
+					position: relative;
+					z-index: 110;
+					}
+					.zoomWrapperImage img{
+						border:0 none;
+						display: block;
+						position: absolute;
+						z-index: 101;
+					}
+		.zoomPreload{display:none;}
+		.zoomOverlay {
+			background: none repeat scroll 0 0 #FFFFFF;
+			display: none;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 101;
+			}
+		.zoomIframe {
+			display: block;
+			opacity: 0.8;
+			position: absolute;
+			z-index: -1;
+			}
