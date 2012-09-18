@@ -66,7 +66,7 @@ $(document).ready(function(){
 			alwaysOn:true,
 			zoomWidth: 293,
 			zoomHeight: 293,
-			title:'false',
+			title:'false'
 		}; 
 		$('.zoom').jqzoom(options);
 	};

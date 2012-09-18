@@ -46,8 +46,9 @@
 					vertical-align:middle;
 					}
 				.filter__col .row{
-					overflow:hidden;
-					margin-bottom: 5px;
+					margin-bottom:5px;
+					height:21px;
+					width:100%;
 					}
 					.filter__col .row input{
 						float:left;
@@ -94,6 +95,10 @@
 						left:0;
 						font-size:13px;
 						color:#666;
+						}
+					.ui-slider-handle{
+						text-decoration:none;
+						outline:none;
 						}
 						.ui-slider-handle span{
 							left:-66px;
@@ -209,6 +214,7 @@
 	border-spacing:0;
 	width:100%;
 	}
+	*+ html .t{border-collapse:collapse;}
 	.t th{
 		border:1px solid #666;
 		border-width:1px 0;
@@ -224,6 +230,7 @@
 			background:url(../img/arrow.png);
 			margin-left: 2px;
 			}
+		*+ html .t th a{vertical-align:middle;}
 		.t th .list-az{background-position:100% 0;}
 		.t th .list-za{background-position:0 0;}
 		.t th .list-az:hover, .t th .list-az.active{background-position:100% -7px;}

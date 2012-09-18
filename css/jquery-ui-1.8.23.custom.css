@@ -315,6 +315,7 @@
 	height:13px;
 	background:url(../img/runner.png);
 	cursor: default; }
+.ui-slider .ui-slider-handle:focus{outline:none;}
 .ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; }
 
 .ui-slider-vertical { width: 5px; height: 100px; }
