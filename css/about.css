@@ -1,0 +1,50 @@
+.about{
+	padding:28px 5px 20px 15px;
+	line-height:1.2;
+	}
+	.about p{
+		margin-bottom:16px;
+		}
+
+.partners{
+	padding-top:9px;
+	}
+	.partners h2{
+		width:190px;
+		margin:0 auto 18px;
+		font-size:12px;
+		color:#cb2027;
+		text-transform:uppercase;
+		text-align:center;
+		position:relative;
+		font-weight:normal;
+		}
+		.partners h2:after, .partners h2:before{
+			content:"";
+			border-top:1px solid #666;
+			height:0;
+			width:385px;
+			top:8px;
+			position:absolute;
+			left:190px;
+			}
+		.partners h2:before{left:-385px;}
+	.partners__list{
+		list-style:none;
+		overflow:hidden;
+		}
+		.partners__list li{
+			float:left;
+			width:240px;
+			text-align:center;
+			height:102px;
+			vertical-align:middle;
+			line-height:102px;
+			}
+			.partners__list a{
+				display:inline-block;
+				padding:7px;
+				background:url(../img/shadow-logo.png) no-repeat 100% 100%;
+				line-height:0;
+				}
+				.partners__list img{vertical-align:middle;}

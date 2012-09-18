@@ -6,12 +6,12 @@
 	width:100%;
 	}
 .product_detail{
-	padding-top:52px;
-	margin-bottom:-22px;
+	padding-top:51px;
+	margin-bottom:-20px;
 	}
 	.product__img{
 		float:left;
-		background:url(../img/white-flag-2.png) no-repeat 100% 0;
+		background:url(../img/white-flag.png) no-repeat 100% 0;
 		width:192px;
 		padding-left:36px;
 		height:344px;
@@ -21,11 +21,13 @@
 		position:relative;
 		margin-right:22px;
 		}
+		.product__img img{vertical-align:middle;}
 	.product_img-red-border{
-		background-image:url(../img/white-flag-3.png);
-		margin: -81px 24px 0 -12px;
+		background-image:url(../img/white-flag-2.png);
+		margin: -81px 24px 0 -14px;
 		}
 	.tabs__product-list .product__img{margin-left:-31px;}
+	.product_detail .product__img img{vertical-align:top;}
 	.product__inf{
 		width:475px;
 		position:relative;
@@ -127,6 +129,37 @@
 			margin:41px 0 0 288px;
 			}
 			.product__btn .btn{margin-left:3px;}
+		.product__meta{
+			overflow:hidden;
+			padding-right:14px;
+			margin-bottom:18px;
+			}
+			.product__cost{
+				float:right;
+				color:#cb2027;
+				margin-top: 6px;
+				text-align: center;
+				width: 106px;
+				}
+			.product__meta .qty__input{
+				float:right;
+				margin:7px 0 0 5px;
+				}
+			.product__cancel{
+				background:url(../img/cancel.png);
+				height:15px;
+				width:15px;
+				overflow:hidden;
+				text-indent:-9999px;
+				float:right;;
+				overflow:hidden;
+				margin:9px 0 0 5px;
+				}
+			.product__meta .btn{
+				float:right;
+				margin-left:5px;
+				}
+
 
 /* .product__interesting
 ----------------------------------------------- */
@@ -136,8 +169,7 @@
 		color:#808080;
 		width:385px;
 		line-height: 1.23;
-		padding-left:25px;
-		margin-bottom:22px;
+		margin:0 0 22px 22px;
 		}
 		.product__interesting h4{
 			color:#cb2027;
@@ -147,7 +179,7 @@
 		.product__interesting p{margin-bottom:13px;}
 	.product__nav{
 		margin-left:77px;
-		padding:20px 0;
+		padding:17px 0 20px;
 		}
 		.product__nav a{
 			color:#666;
@@ -165,6 +197,8 @@
 			padding-right:17px;
 			background-position:100% 100%;
 			}
+/* .zoom
+----------------------------------------------- */
 .zoom{
 	position:relative;
 	display: block;
