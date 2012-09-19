@@ -57,11 +57,12 @@
 	background:#ece9e4;
 	border-radius:6px;
 	box-shadow:0 5px 6px 1px rgba(0, 0, 0, 0.35);
-	padding:15px 6px 18px 40px;
+	padding:15px 6px 48px 40px;
 	margin:16px 6px 14px;
 	display:inline-block;
 	width:667px;
-	min-height:726px;
+	min-height:696px;
+	position:relative;
 	}
 	.form__title{
 		margin-bottom:20px;
@@ -119,9 +120,11 @@
 			margin-top:2px;
 			}
 		.form .btn{
-			margin-right:5px;
-			margin-top:21px;
+			position:absolute;
+			right:5px;
+			bottom:18px;
 			}
+		*+ html .form .btn{width:125px;}
 	.order-data{
 		font-size:16px;
 			}
