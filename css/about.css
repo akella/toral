@@ -1,14 +1,14 @@
+/* .about
+----------------------------------------------- */
 .about{
 	padding:28px 5px 20px 15px;
 	line-height:1.2;
 	}
-	.about p{
-		margin-bottom:16px;
-		}
+	.about p{margin-bottom:16px;}
 
-.partners{
-	padding-top:9px;
-	}
+/* .partners
+----------------------------------------------- */
+.partners{padding-top:9px;}
 	.partners h2{
 		width:190px;
 		margin:0 auto 18px;

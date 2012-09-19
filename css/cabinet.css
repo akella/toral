@@ -9,7 +9,7 @@
 		}
 	.cabinet__favorite em{
 		font-style:normal;
-		margin-right: 10px;
+		margin-right:10px;
 		}
 		.cabinet__favorite em span{color:#666;}
 
@@ -35,9 +35,10 @@
 
 	.product-list__bottom{
 		border-top:1px solid #666;
-		overflow:hidden;
+		display:inline-block;
 		margin:0 11px 20px 18px;
 		padding:4px 5px 0;
+		width:686px;
 		}
 		.product-list__bottom strong{
 			font-weight:normal;
@@ -48,4 +49,167 @@
 		.product-list__bottom .btn{
 			float:right;
 			margin-top:8px;
+			}
+
+/* .form
+----------------------------------------------- */
+.form{
+	background:#ece9e4;
+	border-radius:6px;
+	box-shadow:0 5px 6px 1px rgba(0, 0, 0, 0.35);
+	padding:15px 6px 18px 40px;
+	margin:16px 6px 14px;
+	display:inline-block;
+	width:667px;
+	min-height:726px;
+	}
+	.form__title{
+		margin-bottom:20px;
+		position:relative;
 		}
+		.form__title h2{
+			font-family:Arial, Helvetica, sans-serif;
+			display:inline-block;
+			font-size:14px;
+			}
+	.form__close{
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		font-weight:bold;
+		position:absolute;
+		left:255px;
+		top:0;
+		}
+	.form__close:hover{text-decoration:underline;}
+	.form .row{
+		overflow:hidden;
+		line-height:1.2;
+		margin-bottom:31px;
+		}
+		.form .row label{
+			font-size:16px;
+			width:255px;
+			float:left;
+			}
+			.form label .mark{color:#cb2027;}
+			.form .row .label_small{width:65px;}
+		.form .input{
+			width:152px;
+			padding:2px 5px;
+			color:#666;
+			height:14px;
+			line-height:14px;
+			border:1px solid #acadb3;
+			background:#f2f2f2;
+			float:left;
+			margin:2px 40px 0 0;
+			}
+		.form .input_small{
+			width:113px;
+			margin-right:0;
+			}
+		.form .select{
+			width:179px;
+			padding:0 0 0 5px;
+			color:#666;
+			height:20px;
+			border:1px solid #acadb3;
+			background:#f2f2f2;
+			float:left;
+			margin-top:2px;
+			}
+		.form .btn{
+			margin-right:5px;
+			margin-top:21px;
+			}
+	.order-data{
+		font-size:16px;
+			}
+		.order-data dt{
+			float:left;
+			margin-right:5px;
+			}
+		.order-data dd{
+			margin-bottom:15px;
+			}
+		.order-data .order-data__inn-dt{margin:-35px 0 0 459px;}
+		.order-data__inn-dd{margin:-35px 0 0 505px;}
+	.form .row_textarea{
+		margin-top:-6px;
+		}
+		.form .row_textarea label{
+			font-size:16px;
+			display:block;
+			margin-bottom:9px;
+			}
+		.form .row_textarea textarea{
+			background:#f2f2f2;
+			border:1px solid #bebec3;
+			height:94px;
+			padding:3px 5px;
+			display:block;
+			width:657px;
+			margin-left:-18px;
+			}
+	.order-table{
+		background:#f2f2f2;
+		border:1px solid #bebec3;
+		padding:0 3px 3px;
+		margin:41px 0 0 -33px;
+		position:relative;
+		}
+		.order-table table{
+			border-collapse:separate;
+			border-spacing:0;
+			width:100%;
+			margin-bottom:30px;
+			}
+		*+ html .order-table table{border-collapse:collapse;}
+			.order-table table caption{
+				position:absolute;
+				text-align:left;
+				font-size:16px;
+				left:32px;
+				top:-32px;
+				}
+			.order-table th{
+				font-weight:normal;
+				font-size:16px;
+				border-bottom:1px solid #666;
+				height:30px;
+				padding-bottom:5px;
+				}
+			.order-table td{
+				border-bottom:1px solid #898989;
+				text-align:center;
+				padding:0 1px;
+				font-size:16px;
+				height:24px;
+				}
+			.order-table .order-table__col1{
+				text-align:left;
+				font-size:13px;
+				padding-left:15px;
+				}
+		.order-table__sum{
+			font-size:16px;
+			font-weight:normal;
+			margin-left:16px;
+		}
+
+/* .price-list
+----------------------------------------------- */
+.price-list{
+	width:210px;
+	height:143px;
+	padding:0 17px 5px;
+	background:url(../img/price-list.png);
+	overflow:hidden;
+	text-indent:-9999px;
+	margin-bottom:20px;
+	}
+	.price-list a{
+		display:block;
+		height:100%;
+		}
+

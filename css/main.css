@@ -89,12 +89,12 @@
 .about-company{
 	padding-top:30px;
 	float:left;
-	font-family: "Myriad Pro", Tahoma, Arial, sans-serif;
+	font-family:"Myriad Pro", Tahoma, Arial, sans-serif;
 	font-size:12px;
-	line-height: 1.2;
+	line-height:1.2;
 	width:330px;
 	margin-left:65px;
 	}
 .about-company:first-child{margin:0;}
-	.about-company p{margin-bottom: 14px;}
+	.about-company p{margin-bottom:14px;}
 

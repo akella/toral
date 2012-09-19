@@ -30,30 +30,32 @@ a{color:#cb2027;}
 	display:inline-block;
 	line-height:28px;
 	height:30px;
-	background: #f8f7f7;
-	background: -moz-linear-gradient(top,  #f8f7f7 0%, #f1f0f0 45%, #dad9d8 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f7f7), color-stop(45%,#f1f0f0), color-stop(100%,#dad9d8));
-	background: -webkit-linear-gradient(top,  #f8f7f7 0%,#f1f0f0 45%,#dad9d8 100%);
-	background: -o-linear-gradient(top,  #f8f7f7 0%,#f1f0f0 45%,#dad9d8 100%);
-	background: -ms-linear-gradient(top,  #f8f7f7 0%,#f1f0f0 45%,#dad9d8 100%);
-	background: linear-gradient(to bottom,  #f8f7f7 0%,#f1f0f0 45%,#dad9d8 100%);
+	background:#f8f7f7;
+	background:-moz-linear-gradient(top,  #f8f7f7 0%, #f1f0f0 45%, #dad9d8 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f7f7), color-stop(45%,#f1f0f0), color-stop(100%,#dad9d8));
+	background:-webkit-linear-gradient(top,  #f8f7f7 0%,#f1f0f0 45%,#dad9d8 100%);
+	background:-o-linear-gradient(top,  #f8f7f7 0%,#f1f0f0 45%,#dad9d8 100%);
+	background:-ms-linear-gradient(top,  #f8f7f7 0%,#f1f0f0 45%,#dad9d8 100%);
+	background:linear-gradient(to bottom,  #f8f7f7 0%,#f1f0f0 45%,#dad9d8 100%);
 	border-radius:7px;
 	border:1px solid #c3c2c0;
 	color:#666;
 	text-decoration:none;
 	font-size:12px;
 	padding:0 11px;
-	box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.15)
+	box-shadow:3px 3px 5px 0 rgba(0,0,0,0.15);
+	cursor:pointer;
 	}
 .btn:hover{
-	background: #dad9d8;
-	background: -moz-linear-gradient(top,  #dad9d8 0%, #f1f0f0 55%, #f8f7f7 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dad9d8), color-stop(55%,#f1f0f0), color-stop(100%,#f8f7f7));
-	background: -webkit-linear-gradient(top,  #dad9d8 0%,#f1f0f0 55%,#f8f7f7 100%);
-	background: -o-linear-gradient(top,  #dad9d8 0%,#f1f0f0 55%,#f8f7f7 100%);
-	background: -ms-linear-gradient(top,  #dad9d8 0%,#f1f0f0 55%,#f8f7f7 100%);
-	background: linear-gradient(to bottom,  #dad9d8 0%,#f1f0f0 55%,#f8f7f7 100%);
-}
+	background:#dad9d8;
+	background:-moz-linear-gradient(top,  #dad9d8 0%, #f1f0f0 55%, #f8f7f7 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#dad9d8), color-stop(55%,#f1f0f0), color-stop(100%,#f8f7f7));
+	background:-webkit-linear-gradient(top,  #dad9d8 0%,#f1f0f0 55%,#f8f7f7 100%);
+	background:-o-linear-gradient(top,  #dad9d8 0%,#f1f0f0 55%,#f8f7f7 100%);
+	background:-ms-linear-gradient(top,  #dad9d8 0%,#f1f0f0 55%,#f8f7f7 100%);
+	background:linear-gradient(to bottom,  #dad9d8 0%,#f1f0f0 55%,#f8f7f7 100%);
+	}
+
 /* .header
 ----------------------------------------------- */
 .header{
@@ -91,7 +93,7 @@ a{color:#cb2027;}
 		}
 		.header__phone span{
 			font-size:18px;
-			margin: 0 0 0 5px;
+			margin:0 0 0 5px;
 			}
 	.header__bottom{
 		height:20px;
@@ -101,12 +103,12 @@ a{color:#cb2027;}
 		float:right;
 		color:#cb2027;
 		font-size:13px;
-		margin-left: 12px;
+		margin-left:12px;
 		}
 		.header__favorite a{
 			color:#cb2027;
-			margin-right: 6px;
-		}
+			margin-right:6px;
+			}
 		.header__favorite span{color:#666;}
 
 /* .top-nav
@@ -123,7 +125,6 @@ a{color:#cb2027;}
 				font-size:15px;
 				line-height:42px;
 				float:left;
-
 				}
 				.top-nav a{
 					color:#000;
@@ -133,7 +134,7 @@ a{color:#cb2027;}
 					text-align:center;
 					text-decoration:none;
 					letter-spacing:0.1em;
-					margin: 0 0 0 62px;
+					margin:0 0 0 62px;
 					}
 				.top-nav a:hover, .top-nav .active a{color:#fff;}
 				.top-nav .top-nav__news{
@@ -151,13 +152,13 @@ a{color:#cb2027;}
 					width:112px;
 					background-position:-248px 0;
 					}
-				.top-nav .top-nav__contacts:hover, .top-nav .active .top-nav__contacts{background-position: -248px -43px;}
+				.top-nav .top-nav__contacts:hover, .top-nav .active .top-nav__contacts{background-position:-248px -43px;}
 				.top-nav .top-nav__account{
 					width:179px;
 					background-position:-360px 0;
 					margin-right:0;
 					}
-				.top-nav .top-nav__account:hover, .top-nav .active .top-nav__account{background-position: -360px -43px;}
+				.top-nav .top-nav__account:hover, .top-nav .active .top-nav__account{background-position:-360px -43px;}
 
 /* .nav
 ----------------------------------------------- */
@@ -169,7 +170,7 @@ a{color:#cb2027;}
 	}
 	.nav ul{
 		list-style:none;
-		margin-left: 134px;
+		margin-left:134px;
 		height:41px;
 		}
 		.nav li{
@@ -214,9 +215,7 @@ a{color:#cb2027;}
 	margin:0 -14px;
 	padding:0 14px;
 	}
-	.l{
-		display:inline-block;
-		}
+	.l{display:inline-block;}
 		.l-col5-4{
 			float:left;
 			width:725px;
@@ -259,7 +258,7 @@ a{color:#cb2027;}
 ----------------------------------------------- */
 .last-news{
 	padding-left:40px;
-	width: 180px;
+	width:180px;
 	margin-bottom:20px;
 	}
 	.last-news h2{
@@ -291,7 +290,7 @@ a{color:#cb2027;}
 .popular{
 	background:url(../img/bg-aside.png) no-repeat 100% 58px;
 	margin:0 -14px 20px 0;
-	padding:20px 14px 0 0;
+	padding:17px 14px 0 0;
 	}
 	.popular h2{
 		font-size:14px;
@@ -315,57 +314,51 @@ a{color:#cb2027;}
 	display:inline-block;
 	width:100%;
 	margin-bottom:15px;
+	height:82px;
 	}
 	.load-catalog{
 		float:left;
 		width:111px;
 		height:58px;
 		background:url(../img/icon-pdf.png) no-repeat 6px 9px #fff;
-		font-family: "Myriad Pro", Tahoma, Arial, Helvetica, sans-serif;
+		font-family:"Myriad Pro", Tahoma, Arial, Helvetica, sans-serif;
 		font-size:14px;
 		color:#666;
 		text-decoration:none;
 		border-radius:4px;
 		margin-top:8px;
 		padding:3px 0 0 56px;
-		line-height: 1.2;
+		line-height:1.2;
 		}
-	.l-col5-1 .load-catalog{
-		margin: 45px 0 0 39px;
-		}
-	.load-catalog:hover{
-		box-shadow:0 0 0 1px #ccc inset;
-		}
+	.l-col5-1 .load-catalog{margin:45px 0 0 39px;}
+	.load-catalog:hover{box-shadow:0 0 0 1px #ccc inset;}
 	.brands__list{
 		float:right;
-		position:relative;
 		border:1px solid #666;
 		border-top:none;
 		padding-top:1px;
 		border-radius:0 0 6px 6px;
 		width:701px;
-		margin-top:5px;
+		margin-top:4px;
 		}
 		.brands__list h2{
 			color:#cb2027;
 			font-size:11px;
 			text-transform:uppercase;
-			position:absolute;
+			margin:-13px 0 0 -1px;
 			width:703px;
 			text-align:center;
 			background:url(../img/bg-brands-h.png) no-repeat 0 8px;
-			top:-13px;
-			left:-1px;
 			}
 		.brands__list ul{
 			list-style:none;
 			}
 			.brands__list li{
 				float:left;
-				height: 75px;
+				height:75px;
 				line-height:75px;
 				text-align:center;
-				width: 25%;
+				width:25%;
 				}
 				.brands__list img{vertical-align:middle;}
 

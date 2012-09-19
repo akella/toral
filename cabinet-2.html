@@ -60,14 +60,18 @@
 			<!-- BEGIN .l-col5-4 -->
 			<div class="l-col5-4">
 
-				<!-- BEGIN .profile -->
-				<div class="profile">
+				<!-- BEGIN .form -->
+				<div class="form">
 					<form action="#">
-						<strong></strong>
-						<a href="#"></a>
+						<div class="form__title">
+							<h2>Личная информация</h2>
+							<a href="#" class="form__close">Выйти из профиля</a>
+						</div>
 						<div class="row">
-							<label for="">Наименование компании<span class="matk">*</span></label>
+							<label for="">Наименование компании<span class="mark">*</span>:</label>
 							<input type="text" class="input">
+							<label for="" class="label_small">ИНН<span class="mark">*</span>:</label>
+							<input type="text" class="input input_small">
 						</div>
 						<div class="row">
 							<label for="">Имя:</label>
@@ -78,11 +82,11 @@
 							<input type="text" class="input">
 						</div>
 						<div class="row">
-							<label for="">Email<span class="matk">*</span></label>
+							<label for="">Email<span class="mark">*</span></label>
 							<input type="text" class="input">
 						</div>
 						<div class="row">
-							<label for="">Login<span class="matk">*</span> (мин. 4 символа)</label>
+							<label for="">Login<span class="mark">*</span> (мин. 4 символа)</label>
 							<input type="text" class="input">
 						</div>
 						<div class="row">
@@ -116,10 +120,10 @@
 							<label for="">Почтовый адрес</label>
 							<input type="text" class="input">
 						</div>
-						<input type="submit" class="btn">
+						<input type="submit" class="btn flr" value="Сохранить">
 					</form>
 				</div>
-				<!-- END .profile -->
+				<!-- END .form -->
 
 				
 			</div>
@@ -167,6 +171,11 @@
 					</div>
 				</div>
 				<!-- END .last-news -->
+
+				<div class="price-list">
+					<a href="#">Ваш прайс-лист</a>
+				</div>
+
 			</aside>
 			<!-- END .l-col5-1 -->
 		</div>

@@ -5,6 +5,7 @@ $(document).ready(function(){
 		return $(this).length;
 	}
 
+
 	// price slider
 	if ($("#slider-range").exists()){
 		$("#slider-range").slider({
@@ -25,6 +26,7 @@ $(document).ready(function(){
 		$(".ui-slider-handle").eq(0).html("<span>"+ $( "#slider-range" ).slider( "values", 0 ) +" р.</span>");
 		$(".ui-slider-handle").eq(1).html("<span>"+ $( "#slider-range" ).slider( "values", 1 ) +" р.</span>");
 	};
+
 
 	// tabs
 	$('ul.tabs__nav').delegate('li:not(.active)', 'click', function() {
@@ -49,6 +51,7 @@ $(document).ready(function(){
 		return false;
 	});
 
+
 	//zoom
 	if ($(".zoom").exists()){
 
@@ -70,6 +73,21 @@ $(document).ready(function(){
 		}; 
 		$('.zoom').jqzoom(options);
 	};
+
+
+	//news
+ 	$(".news__title").click(function(){
+		if ($(this).parent().hasClass("active")){
+			$(this).next(".news__inf").animate({ height: "38" });
+			$(this).parent().removeClass("active");
+		}
+		else {
+			$(this).next(".news__inf").animate({height:$(this).next().children(".news__inf-holder").height()+7});
+			$(this).parent().addClass("active");
+		}
+        return false;
+	});
+
 
 });
 
